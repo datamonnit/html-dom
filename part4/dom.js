@@ -14,7 +14,7 @@ function addItem(e){
 
     // Create new li element
     let li = document.createElement('li');
-    li.className = 'list-group-item';
+    li.className = 'list-group-item list-group-item-action flex-column';
     li.appendChild(document.createTextNode(newItem));
 
     // Create delete-button
